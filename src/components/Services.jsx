@@ -1,84 +1,8 @@
+import React from 'react'
 
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Cache-control" content="public">
-  <title>Assignment</title>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://brandbajade.com/css/main.css" />
-
-  <!-- Meta Pixel Code -->
-</head>
-
-
-
-<body>
-  <!-- header start -->
-
-  <header>
-    <svg width="48" height="35" viewBox="0 0 48 35" fill="none" xmlns="http://www.w3.org/2000/svg" id="hamburger" class="s">
-      <rect width="48" height="7" rx="3.5" fill="white" id="top-bar" />
-      <rect y="14" width="27" height="7" rx="3.5" fill="white" id="mid-bar" />
-      <rect y="28" width="35" height="7" rx="3.5" fill="white" id="bottom-bar" />
-    </svg>
-
-    <div id="div">
-      <img src="./assets/logo/big_b_part.svg" class="hero_vector" id="big_b" alt="" />
-      <img src="./assets/logo/small_b_part.svg" class="hero_vector" id="small_b" alt="" />
-      <img src="./assets/logo/c_part.svg" class="hero_vector" id="c" alt="" />
-    </div>
-
-    <a class="header_cta contact_btn" id="four">Contact Now</a>
-  </header>
-
-  <p class="brand_text">Assignmet</p>
-  <!-- header end -->
-
-
-  <!-- hero section start -->
-  <section>
-    <div class="container" id="hero_container"></div>
-    <div class="anim_offset"></div>
-  </section>
-  <!-- hero section ends -->
-
-
-  <!-- hero slider start -->
-  <section class="hero_slider owl-carousel owl-theme">
-    <div class="item">
-      <img loading="lazy" src="./assets/portfolio/Happy_Banner.jpg" alt="#">
-    </div>
-
-    <div class="item">
-      <img loading="lazy" src="./assets/portfolio/LIC-Banner.jpg" alt="#">
-    </div>
-
-    <div class="item">
-      <img loading="lazy" src="./assets/portfolio/PACE-BANNER.jpg" alt="#">
-    </div>
-
-    <div class="item">
-      <img loading="lazy" src="./assets/portfolio/YUNGAMA-BANNER.jpg" alt="#">
-    </div>
-
-    <div class="item">
-      <img loading="lazy" src="./assets/portfolio/evo_3.jpg" alt="#">
-    </div>
-  </section>
-  <!-- hero slider ends -->
-
-  <!-- about us section start -->
-    <p id="hero_abt" style="display: none;" >dfkjslk</p>
-  <!-- about us section ends -->
-
-  <!-- service section start -->
-  <div class="srvc_parent_cont" id="service_cont">
+function Services() {
+  return (
+    <div class="srvc_parent_cont" id="service_cont">
     <h2 class="section_title">
       Services
     </h2>
@@ -87,50 +11,50 @@
       <div class="srvc_back_img_container owl-carousel owl-theme">
         <div class="item">
           <picture>
-            <source media="(max-width:525px)" srcset="./assets/services/1_mob.webp">
-            <img src="./assets/services/1.webp" alt="#">
+            <source media="(max-width:525px)" srcset="./assets/services/1_mob.webp"/>
+            <img src="./assets/services/1.webp" alt="#"/>
           </picture>
         </div>
 
         <div class="item">
           <picture>
-            <source media="(max-width:525px)" srcset="./assets/services/2_mob.webp">
-            <img src="./assets/services/2.webp" alt="#">
+            <source media="(max-width:525px)" srcset="./assets/services/2_mob.webp"/>
+            <img src="./assets/services/2.webp" alt="#"/>
           </picture>
         </div>
 
         <div class="item">
           <picture>
-            <source media="(max-width:525px)" srcset="./assets/services/3_mob.webp">
-            <img src="./assets/services/3.webp" alt="#">
+            <source media="(max-width:525px)" srcset="./assets/services/3_mob.webp"/>
+            <img src="./assets/services/3.webp" alt="#"/>
           </picture>
         </div>
 
         <div class="item">
           <picture>
-            <source media="(max-width:525px)" srcset="./assets/services/4_mob.webp">
-            <img src="./assets/services/4.webp" alt="#">
+            <source media="(max-width:525px)" srcset="./assets/services/4_mob.webp"/>
+            <img src="./assets/services/4.webp" alt="#"/>
           </picture>
         </div>
 
         <div class="item">
           <picture>
-            <source media="(max-width:525px)" srcset="./assets/services/4_mob.webp">
-            <img src="./assets/services/4.webp" alt="#">
+            <source media="(max-width:525px)" srcset="./assets/services/4_mob.webp"/>
+            <img src="./assets/services/4.webp" alt="#"/>
           </picture>
         </div>
 
         <div class="item">
           <picture>
-            <source media="(max-width:525px)" srcset="./assets/services/5_mob.webp">
-            <img src="./assets/services/5.webp" alt="#">
+            <source media="(max-width:525px)" srcset="./assets/services/5_mob.webp"/>
+            <img src="./assets/services/5.webp" alt="#"/>
           </picture>
         </div>
 
         <div class="item">
           <picture>
-            <source media="(max-width:525px)" srcset="./assets/services/6_mob.webp">
-            <img src="./assets/services/6.webp" alt="#">
+            <source media="(max-width:525px)" srcset="./assets/services/6_mob.webp"/>
+            <img src="./assets/services/6.webp" alt="#"/>
           </picture>
         </div>
       </div>
@@ -266,42 +190,7 @@
       </div>
     </div>
   </div>
-  <!-- service section ends -->
+  )
+}
 
-</div>
-</div>
-    
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/ScrollTrigger.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-    $(".hero_slider").owlCarousel({
-        nav: false,
-        loop: true,
-        margin: 20,
-        dots: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: false,
-        slideTransition: "linear",
-        items: 1,
-    });
-</script>
-
-<script src="js/script.js"></script>
-
-<script type="text/javascript">
-_linkedin_partner_id = "6467409";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-
-
-<script src="js/homepage.js"></script>
-
-</body>
-
-</html>
+export default Services
